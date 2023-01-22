@@ -1,10 +1,11 @@
 import './App.css';
-import data, { allCategories, uniqueCategories, categoriesAndCounts }from './data';
+import data, { allCategories, uniqueCategories, categoriesAndCounts, namesAndCategories }from './data';
 
 // console.log(data);
 // console.log(allCategories);
 // console.log(uniqueCategories);
-console.log(categoriesAndCounts)
+// console.log(categoriesAndCounts)
+console.log(namesAndCategories)
 function App() {
   return (
     <div className="App">

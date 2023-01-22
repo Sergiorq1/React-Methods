@@ -25,8 +25,13 @@ const categoriesAndCounts = allCategories.reduce((acc, cat) => {
     return acc
 }, {})
 
+//Challenge 5
+const namesAndCategories = uniqueCategories.map(name => {
+    return { name: name, count:categoriesAndCounts[name] }
+})
 export {
     allCategories,
     uniqueCategories,
-    categoriesAndCounts
+    categoriesAndCounts,
+    namesAndCategories
 }

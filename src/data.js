@@ -30,6 +30,7 @@ const namesAndCategories = uniqueCategories.map(name => {
     return { name: name, count:categoriesAndCounts[name] }
 })
 
+namesAndCategories.push({name: 'All', count: data.length})
 //Challenge 6
 export {
     allCategories,
